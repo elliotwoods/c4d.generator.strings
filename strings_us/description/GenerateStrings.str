@@ -1,0 +1,7 @@
+STRINGTABLE GenerateStringsSpline {
+	GenerateStringsSpline "Generate Strings";
+
+	Count "Count";
+	RandomSeed "Random Seed";
+	Scale "Scale";
+}
