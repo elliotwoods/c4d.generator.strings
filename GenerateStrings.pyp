@@ -46,8 +46,8 @@ class GenerateStringsSpline(plugins.ObjectData):
 		spline = c4d.SplineObject(lineCount * 2, c4d.SPLINETYPE_LINEAR)
 
 		data = op.GetDataInstance()
-		random.seed(data.GetLong(VAR_RandomSeed))
 		count = data.GetLong(VAR_Count)
+		random.seed(data.GetLong(VAR_RandomSeed))
 		size = data.GetVector(VAR_Scale)
 
 		for i in range(0, count):
